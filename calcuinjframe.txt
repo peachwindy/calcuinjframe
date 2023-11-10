@@ -1,0 +1,21 @@
+
+tap button for add and type
+performAddition ();
+
+tap button for mul and type
+performMultiplication ();
+
+tap button for sub and type
+performSubtraction ();
+
+tap button for div and tyoe
+performDivision ();
+
+
+on
+private void performAddition () {
+put
+  try {
+      double num1 = Double.parseDouble(textField2.getText ());
+      double num2 = Double.parseDouble(textField3.getText ());
+      double result = num1 + num2;
